@@ -17,7 +17,9 @@
 body{
     font-family: 'Amatic SC', cursive;
     color: #065F46;
-   
+   background-image: url(https://wallpapercave.com/wp/wp5347562.jpg);
+   background-size: cover;
+   background-attachment: fixed;
 }
 
 .navbar{
@@ -70,11 +72,19 @@ body{
 
 #btn-translate:hover{
     font-size: larger;
+    background-color: white;
+    
 }
 
 .output{
     padding-bottom: 0.5rem;
-    color: #065F46;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#text-output{
+    background-color: white;
 }
 
 #text-input{
